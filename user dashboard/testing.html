@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Before Dropdown</title>
+    <script>
+        function filterOptions() {
+            let input = document.getElementById("searchInput").value.toLowerCase();
+            let select = document.getElementById("fruits");
+            let options = select.getElementsByTagName("option");
+
+            // Hide all options initially
+            for (let option of options) {
+                option.style.display = "none";
+            }
+
+            // Show options that match the input
+            for (let option of options) {
+                if (option.text.toLowerCase().includes(input)) {
+                    option.style.display = "block";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <label for="searchInput">Type to filter fruits:</label>
+    <input type="text" id="searchInput" onkeyup="filterOptions()" placeholder="Start typing...">
+
+    <label for="fruits">Choose a fruit:</label>
+    <select id="fruits" name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+        <option value="date">Date</option>
+        <option value="elderberry">Elderberry</option>
+    </select>
+
+</body>
+</html>
