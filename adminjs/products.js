@@ -3,6 +3,8 @@
         if (
             element.value === "Product Name:" ||
             element.value === "Product Price:" ||
+            element.value === "Category:" ||
+            element.value === "Stock:" ||
             element.value === "Describe your product.."
         ) {
             element.value = "";
@@ -18,6 +20,10 @@
                 element.value = "Product Price:";
             } else if (element.id === "productDescInput") {
                 element.value = "Describe your product..";
+            }else if (element.id === "productCategoryInput") {
+                element.value = "Category:";
+            }else if (element.id === "productStockInput") {
+                element.value = "Stock:";
             }
         }
     }

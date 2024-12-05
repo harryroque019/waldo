@@ -7,9 +7,9 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
     $password = $_POST['password'] ?? '';
 
     if(filter_var($username, FILTER_VALIDATE_EMAIL)){
-        $admin = $collection->findOne(['email' => $username]);
+        $admin = $collectionadmin->findOne(['email' => $username]);
     } else {
-        $admin = $collection->findOne(['$or' => [['username' => $username], ['firstname' => $username], ['lastname' => $username]]]);
+        $admin = $collectionadmin->findOne(['$or' => [['username' => $username], ['firstname' => $username], ['lastname' => $username]]]);
     }
     
     if($admin && password_verify($password, $admin['password'])){

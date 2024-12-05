@@ -1,9 +1,10 @@
+
 <?php
 session_start();
-require __DIR__ . '../../vendor/autoload.php';
+require '../connection/connection.php';
 
-$client = new MongoDB\Client("mongodb://localhost:27017");
-$collection = $client->BTBA->products;
+$client = new MongoDB\Client;
+$collectionproducts = $client->BTBA->products;
 
 if (!isset($_SESSION['email'])) {
     header("Location: ../admin/login.php");
@@ -15,6 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $productName = $_POST['productNameInput'];
     $productPrice = $_POST['productPriceInput'];
     $productDesc = $_POST['productDescInput'];
+    $productCategory = $_POST['productCategoryInput'];
+    $stock = $_POST['productStockInput'];
 
     $image = $_FILES['image'];
     $imageName = $image['name'];
@@ -35,11 +38,13 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 $destination = "../imageadmin/" . $imageNameNew;
                 move_uploaded_file($imageTmpName, $destination);
 
-                $collection->insertOne([
+                $collectionproducts->insertOne([
                     'productName' => $productName,
                     'productPrice' => $productPrice,
                     'productDesc' => $productDesc,
-                    'image' => $imageNameNew
+                    'image' => $imageNameNew,
+                    'productCategory' => $productCategory,
+                    'stock' => $stock
                 ]);
 
                 echo "<script>alert('Product added successfully!');</script>";
@@ -63,6 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../admincss/products.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
@@ -150,12 +156,27 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 onblur="restoreDefaultValue(this)">Product Price:</textarea>
             </div>
             <div class="text">
+                <textarea id="productCategoryInput" 
+                name="productCategoryInput" 
+                maxlength="1000" 
+                onfocus="clearDefaultValue(this)" 
+                onblur="restoreDefaultValue(this)">Category:</textarea>
+            </div>
+            <div class="text">
+                <textarea id="productStockInput" 
+                name="productStockInput" 
+                maxlength="1000" 
+                onfocus="clearDefaultValue(this)" 
+                onblur="restoreDefaultValue(this)">Stock:</textarea>
+            </div>
+            <div class="text">
                 <textarea id="productDescInput" 
                 name="productDescInput" 
                 maxlength="1000" 
                 onfocus="clearDefaultValue(this)" 
                 onblur="restoreDefaultValue(this)">Describe your product..</textarea>
             </div>
+            
         </div>
 
         <!-- choose file -->
@@ -174,17 +195,33 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             <div class="table">
              <table>
                  <tr>
-                   <th>Products</th>
+                   <th>
+                        <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Category
+                        </button>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        </div>
+                   </th>
+                   <th>Product</th>
                    <th>Stocks</th>
                    <th>Sold</th>
-                   <th>Action</th>
+                   <th>Price</th>
                  </tr>
-                 <tr>
-                   <td> <img src="../imageadmin/1_1-removebg-preview 1.png" alt=""><p>entle Brighten...</p></td>
-                   <td>cabalida@gmail.coim</td>
-                   <td>0644785544</td>
-                   <td>asdasdasd</td>
-                 </tr>
+                 <?php foreach ($collectionproducts as $product) { ?>
+    
+                    <tr>
+                    <td><?php echo $product['productCategory']; ?></td>
+                    <td><?php echo $product['productName']; ?></td>
+                    <td><?php echo $product['stock']; ?></td>
+                    <td></td>
+                    <td><?php echo $product['productPrice']; ?></td>
+                    </tr>
+                <?php } ?>
                </table>
              </div> 
  
@@ -197,7 +234,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <script src="../adminjs/products.js"> </script>
 <!--matic mag a-appear yung chosen image-->
     <script src="../adminjs/chosenappear.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </body>
 </html>
-

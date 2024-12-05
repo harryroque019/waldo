@@ -151,7 +151,6 @@ button p{
 .user-info{
     background-color: white;
     max-width: 100%;
-    height: 1000px;
     position: relative;
     margin-top: -540px;
     margin-left: 213px;
@@ -169,6 +168,7 @@ button p{
     margin-left: 40px;
     border-radius: 20px;
     border: 1px solid black;
+   
 }
 
 
@@ -178,39 +178,14 @@ button p{
     margin-left: 100px;
     margin-top: -100px;
     margin-bottom: 40px;
+   
 }
 
-input[type="file"] {
-    width: 261px; /* Set the width */
-    padding: 8px 12px; /* Add padding for better usability */
-    border: 2px solid black; /* Add a black border */
-    border-radius: 4px; /* Add rounded corners */
-    background-color: #f9f9f9; /* Set a light background */
-    font-size: 16px; /* Adjust font size for better readability */
-    color: black; /* Text color */
-    cursor: pointer; /* Pointer cursor for file input */
-  }
-  
-  input[type="file"]::-webkit-file-upload-button {
-    background: black; /* Background color for the upload button */
-    color: white; /* Text color for the upload button */
-    padding: 6px 12px; /* Padding inside the button */
-    border: none; /* Remove border around the button */
-    border-radius: 4px; /* Add rounded corners */
-    font-size: 14px; /* Adjust font size */
-    cursor: pointer; /* Pointer cursor for the button */
-  }
-  
-  input[type="file"]::-ms-browse {
-    background: black; /* Background color for the upload button (IE/Edge) */
-    color: white; /* Text color for the upload button */
-    padding: 6px 12px; /* Padding inside the button */
-    border: none; /* Remove border around the button */
-    border-radius: 4px; /* Add rounded corners */
-    font-size: 14px; /* Adjust font size */
-    cursor: pointer; /* Pointer cursor for the button */
-  }
-
+.file button{
+    width: 261px;
+    height: 41px;
+   border-radius: 10px;
+}
 
   .box2{
     margin-left: 125px;
@@ -255,13 +230,12 @@ input[type="file"] {
 /* end */
 
 
-
-
-
 .user-data {
-    width: 100%;
+    width: 81.10%;
     padding: 20px;
-    margin-top: -20px;
+    margin-left: 230px;
+   
+
   }
   
   /* Table container for horizontal scroll */

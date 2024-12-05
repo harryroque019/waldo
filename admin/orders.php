@@ -72,7 +72,7 @@
                         <th>Action</th>
                     </tr>
                     <tr>
-                        <td><img src="../imageadmin/1_1-removebg-preview 1.png" alt=""></td>
+                        <td><img src="../imageadmin/1_1-removebg-preview 1.png" alt=""><p>PRODUCT NAME</p></td>
                         <td>Wr44svhg0..</td>
                         <td>₱ 199</td>
                         <td>Bhoxz K..</td>

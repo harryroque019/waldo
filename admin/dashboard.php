@@ -7,7 +7,20 @@ if (!isset($_SESSION['email'])) {
     exit;
 }
 
-$users = $collection->find();
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $email = $_POST['email'];
+    $status = $_POST['status'];
+
+    $collectionuser->updateOne(
+        ['email' => $email],
+        ['$set' => ['status' => $status]]
+    );
+
+    echo "<script>alert('Status updated successfully'); window.location.href = 'dashboard.php';</script>";
+    exit;
+}
+
+$users = $collectionuser->find();
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +30,7 @@ $users = $collection->find();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../admincss/dasboard.css">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -87,15 +101,22 @@ $users = $collection->find();
         </div>
         
         <h2 class="text">User</h2>
+        <form>
+            <input type="password" name="password" id="" placeholder="Search" required>
+        </form>
+        
+
 
         <div class="user-data">
            <div class="table">
             <table>
                 <tr>
-                  <th>Name</th>
+                <th>Name</th>
                   <th>Email</th>
                   <th>Phone Number</th>
                   <th>Username</th>
+                  <th>Status</th>
+                  <th></th>
                 </tr>
                 
                 <?php foreach ($users as $user) { ?>
@@ -104,19 +125,23 @@ $users = $collection->find();
                     <td><?php echo $user['email']; ?></td>
                     <td><?php echo $user['phonenumber']; ?></td>
                     <td><?php echo $user['username']; ?></td>
-              </tr>
+                    <td>
+                    <form method="POST">
+                        <select name="status" class="status">
+                            <option value="Active" <?php echo $user['status'] == 'Active' ? 'selected' : ''; ?>>Active</option>
+                            <option value="Inactive" <?php echo $user['status'] == 'Inactive' ? 'selected' : ''; ?>>nactive</option>
+                        </select>
+                        <input type="hidden" name="email" value="<?php echo $user['email']; ?>">
+                        <button type="submit">Save</button>
+                    </form>
+                    </td>
+                </tr>
                 <?php } ?>
             </table>
             </div> 
-
         </div>
-        
-        
-        
-    </div>  
-
-
-    
-    
+    </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
+

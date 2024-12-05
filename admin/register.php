@@ -12,14 +12,14 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
     $isAdmin = $_POST['isAdmin'] ?? false;
 
   
-    $existuser = $collection->findOne(['email' => $email]);
+    $existuser = $collectionadmin->findOne(['email' => $email]);
     if($existuser) {
      echo "<script>alert('Email already exist');</script>";
     } else {
   
       $hashedpass = password_hash($password, PASSWORD_DEFAULT);
   
-      $collection->insertOne([
+      $collectionadmin->insertOne([
   
         'firstname' => $fname,
         'lastname' => $lname,

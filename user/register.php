@@ -1,8 +1,6 @@
 <?php
 session_start();
-require __DIR__ . '../../vendor/autoload.php';
-$client = new MongoDB\Client("mongodb://localhost:27017");
-$collection = $client->BTBA->user;
+require '../connection/connection.php';
 
 if($_SERVER['REQUEST_METHOD'] == "POST") {
     $fname = $_POST['fname'];
@@ -12,25 +10,29 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
     $password = $_POST['pass'];
     $pnum = $_POST['pnum'];
 
+    
+
   
-    $existuser = $collection->findOne(['email' => $email]);
+    $existuser = $collectionuser->findOne(['email' => $email]);
     if($existuser) {
      echo "<script>alert('Email already exist');</script>";
     } else {
   
       $hashedpass = password_hash($password, PASSWORD_DEFAULT);
   
-      $collection->insertOne([
+      $collectionuser->insertOne([
   
         'firstname' => $fname,
         'lastname' => $lname,
         'username' => $uid,
         'email' => $email,
         'phonenumber'=> $pnum,
-        'password' => $hashedpass
+        'password' => $hashedpass,
+        'status' => 'Active'
   
       ]);
       echo "<script>alert('Registered successfully'); window.location.href = '../user/login.php';</script>";
+      exit;
     }
 }
 ?>
