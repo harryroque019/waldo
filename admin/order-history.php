@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/order-history.css">
+    <link rel="stylesheet" href="/admincss/order-history.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,22 +15,22 @@
         <div class="container">
             <nav>
                 <div class="logoBrand">
-                    <a href="homePage.html"><img src="image/logoIcon (1).png" class="logoIcon"></a>
+                    <a href="homePage.php"><img src="/imageadmin/logoIcon (1).png" class="logoIcon"></a>
                     <h1 class="brandName">BeautyandtheBest</h1>
                 </div>
                 <ul class="navList">
-                    <li><a href="homePage.html">Home</a></li>
-                    <li><a href="productList.html">Products</a></li>
-                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="/admin/homePage.php">Home</a></li>
+                    <li><a href="/admin/productList.php">Products</a></li>
+                    <li><a href="/admin/brands.php">Brands</a></li>
                 </ul>
                 <div class="icons">
                     <div class="search-container">
                         <input type="text" placeholder="Search..">
-                        <img src="image/searchIcon (1).png" class="searchIcon">
+                        <img src="/imageadmin/searchIcon (1).png" class="searchIcon">
                     </div>
-                    <a href=""><img src="image/userIcon (1).png" class="profileIcon"></a>
-                    <a href="cart.html"><img src="image/cartIcon (1).png" class="cartIcon"></a>
-                    <a href="wishlist.html"><img src="image/wishlistBanner.png" class="wishlistIcon"></a>
+                    <a href="/admin/"><img src="/imageadmin/userIcon (1).png" class="profileIcon"></a>
+                    <a href="/admin/cart.php"><img src="/imageadmin/cartIcon (1).png" class="cartIcon"></a>
+                    <a href="/admin/wishlist.php"><img src="/imageadmin/wishlistBanner.png" class="wishlistIcon"></a>
                 </div>
             </nav>
         </div>
@@ -41,13 +41,13 @@
         <div class="menu">
             <div class="con-btn">
                 <div class="btn">
-                    <button type="submit"><a href="userdashboard.html"><b>Profile<br>Information</b></a></button>
+                    <button type="submit"><a href="/admin/userdashboard.php"><b>Profile<br>Information</b></a></button>
                 </div>
                 <div class="btn">
-                    <button type="submit"><a href="skinprofile.html"><b>Skin Profile</b></a></button>
+                    <button type="submit"><a href="/admin/skinprofile.php"><b>Skin Profile</b></a></button>
                 </div>
                 <div class="btn">
-                    <button type="submit"><a href="accountsettings.html"><b>Account<br>Settings</b></a></button>
+                    <button type="submit"><a href="/admin/accountsettings.php"><b>Account<br>Settings</b></a></button>
                 </div>
                 <div class="btn">
                     <button type="submit"><b>Orders</b></button>
@@ -141,7 +141,7 @@
                     <textarea id="productInput" maxlength="1000" onfocus="clearDefaultValue()" onblur="restoreDefaultValue()">Product Name:</textarea>
                 </div>
                 <div class="product">
-                    <img src="image/productbl.png" alt="">
+                    <img src="/imageadmin/productbl.png" alt="">
                 </div>
              </div>
 
@@ -151,7 +151,7 @@
     </div>
     
 
-  <script src="/js/order-history.js"></script>
+  <script src="/adminjs/order-history.js"></script>
 
 </body>
 </html>

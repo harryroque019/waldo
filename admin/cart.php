@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" href="/admincss/cart.css">
 </head>
 <body>
     <div class="nav">
-        <img src="/image/logo.png" alt="Logo" class="logo" style="margin-left: 190px; " height=70px>
+        <img src="/imageadmin/logo.png" alt="Logo" class="logo" style="margin-left: 190px; " height=70px>
         <p id="Beauty">BeautyandtheBest</p>
         <ul>
             <li><a href="Home"><b>Home</b></a></li>
             <li><a href="Home"><b>Shop</b></a></li>
             <li><a href="Home"><b>About Us</b></a></li>
-            <a href=""><img src="/image/image 47.png" alt="" style="width: 37px;" height="30px"></a>
+            <a href=""><img src="/imageadmin/image 47.png" alt="" style="width: 37px;" height="30px"></a>
         </ul>
     </div>
         <div class="icon1">
-            <a href=""><img src="/image/backIcon 2.png" alt="" style="height: 40px;"></a>
+            <a href=""><img src="/imageadmin/backIcon 2.png" alt="" style="height: 40px;"></a>
             <h1>Your Cart</h1>
         </div>
         <div class="container" style= "margin-bottom: 30px;">
@@ -26,12 +26,12 @@
         <div class="product">
             <input  type="checkbox" name="" id="check">
             <div class="image">
-                <img id="image" src="/image/products.png" alt="" style="height: 150px;">
+                <img id="image" src="/imageadmin/products.png" alt="" style="height: 150px;">
             </div>
             <div class="productname">
                 <h3>Product Name</h3><br><br>
-                <h3>₱ 199.00 <img src="image/heart.png" style="height: 17px;" alt=""></h3> <br><br>
-                <img src="/image/ratings.png" style="width: 80px;" alt="">
+                <h3>₱ 199.00 <img src="/imageadmin/heart.png" style="height: 17px;" alt=""></h3> <br><br>
+                <img src="/imageadmin/ratings.png" style="width: 80px;" alt="">
             </div>
             <div class="line"></div>
             <div class="di">
@@ -56,12 +56,12 @@
     <div class="product">
         <input  type="checkbox" name="" id="check">
         <div class="image">
-            <img id="image" src="/image/products.png" alt="" style="height: 150px;">
+            <img id="image" src="/imageadmin/products.png" alt="" style="height: 150px;">
         </div>
         <div class="productname">
             <h3>Product Name</h3><br><br>
-            <h3>₱ 199.00 <img src="image/heart.png" style="height: 17px;" alt=""></h3> <br><br>
-            <img src="/image/ratings.png" style="width: 80px;" alt="">
+            <h3>₱ 199.00 <img src="/imageadmin/heart.png" style="height: 17px;" alt=""></h3> <br><br>
+            <img src="/imageadmin/ratings.png" style="width: 80px;" alt="">
         </div>
         <div class="line"></div>
         <div class="di">

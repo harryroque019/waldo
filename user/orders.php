@@ -13,22 +13,22 @@
         <div class="container">
             <nav>
                 <div class="logoBrand">
-                    <a href="homePage.html"><img src="images/svg/logoIcon.png" class="logoIcon"></a>
+                    <a href="/user/homePage.php"><img src="/imagesuser/svg/logoIcon.png" class="logoIcon"></a>
                     <h1 class="brandName">BeautyandtheBest</h1>
                 </div>
                 <ul class="navList">
-                    <li><a href="homePage.html">Home</a></li>
-                    <li><a href="productList.html">Products</a></li>
-                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="/user/homePage.php">Home</a></li>
+                    <li><a href="/user/productList.php">Products</a></li>
+                    <li><a href="/user/brands.php">Brands</a></li>
                 </ul>
                 <div class="icons">
                     <div class="search-container">
                         <input type="text" placeholder="Search..">
-                        <img src="images/svg/searchIcon.png" class="searchIcon">
+                        <img src="/imagesuser/svg/searchIcon.png" class="searchIcon">
                     </div>
-                    <a href=""><img src="images/svg/userIcon.png" class="profileIcon"></a>
-                    <a href="cart.html"><img src="images/svg/cartIcon.png" class="cartIcon"></a>
-                    <a href="wishlist.html"><img src="images/svg/wishlistBanner.png" class="wishlistIcon"></a>
+                    <a href=""><img src="/imagesuser/svg/userIcon.png" class="profileIcon"></a>
+                    <a href="/user/cart.php"><img src="/imagesuser/svg/cartIcon.png" class="cartIcon"></a>
+                    <a href="/user/wishlist.php"><img src="/imagesuser/svg/wishlistBanner.png" class="wishlistIcon"></a>
                 </div>
             </nav>
         </div>
@@ -39,10 +39,10 @@
             <div class="menu">
                 <div class="con-btn">
                     <div class="btn">
-                        <button><a href="userdashboard.html"><b>Profile</b></a></button>
+                        <button><a href="/user/userdashboard.php"><b>Profile</b></a></button>
                     </div>
                     <div class="btn">
-                        <button><a href="skinprofile.html"><b>Skin Profile</b></a></button>
+                        <button><a href="/user/skinprofile.php"><b>Skin Profile</b></a></button>
                     </div>
                     <div class="btn">
                         <button><b>Orders</b></button>
@@ -66,7 +66,7 @@
                                 <p>Order Status</p>
                             </div>
                             <button class="recent-order-content">
-                                <img src="images/product-items/facial-wash/facial-cleanser-1.png" alt="">
+                                <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png" alt="">
                                 <h3>Gentle Brightening Cleanser</h3>
                                 <h3>1</h3>
                                 <h3>₱ 199</h3>
@@ -74,7 +74,7 @@
                                 <h3>To Ship</h3>
                             </button>
                             <button class="recent-order-content">
-                                <img src="images/product-items/facial-wash/facial-cleanser-1.png" alt="">
+                                <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png" alt="">
                                 <h3>Gentle Brightening Cleanser</h3>
                                 <h3>1</h3>
                                 <h3>₱ 199</h3>
@@ -116,53 +116,9 @@
                             <p>Payment</p>
                             <p>Order Status</p>
                         </div>
-                        <div class="order-content">
-                            <p>Order ID</p>
-                            <p>Product</p>
-                            <p>Quantity</p>
-                            <p>Total Amount</p>
-                            <p>Payment</p>
-                            <p>Order Status</p>
-                        </div>
-
-                        <div class="order-content">
-                            <p>Order ID</p>
-                            <p>Product</p>
-                            <p>Quantity</p>
-                            <p>Total Amount</p>
-                            <p>Payment</p>
-                            <p>Order Status</p>
-                        </div>
-
-                        <div class="order-content">
-                            <p>Order ID</p>
-                            <p>Product</p>
-                            <p>Quantity</p>
-                            <p>Total Amount</p>
-                            <p>Payment</p>
-                            <p>Order Status</p>
-                        </div>
-
-                        <div class="order-content">
-                            <p>Order ID</p>
-                            <p>Product</p>
-                            <p>Quantity</p>
-                            <p>Total Amount</p>
-                            <p>Payment</p>
-                            <p>Order Status</p>
-                        </div>
-
-                        <div class="order-content">
-                            <p>Order ID</p>
-                            <p>Product</p>
-                            <p>Quantity</p>
-                            <p>Total Amount</p>
-                            <p>Payment</p>
-                            <p>Order Status</p>
-                        </div>
                     </div>
 
-                    <!-- <div class="review-header">
+                    <div class="review-header">
                         <h1>Write a review</h1>
                     </div>
 
@@ -174,10 +130,10 @@
                                 <textarea placeholder="What do you think of our product? Write here."></textarea>
                             </div>
                             <div class="image-content">
-                                <img src="images/product-items/facial-wash/facial-cleanser-1.png" alt="">
+                                <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png" alt="">
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                </div>
             </div>
         </div>

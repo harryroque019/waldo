@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart Page</title>
-    <link rel="stylesheet" href="/usercss/cart.css">
+    <link rel="stylesheet" href="../usercss/cart.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,22 +13,22 @@
         <div class="container">
             <nav>
                 <div class="logoBrand">
-                    <a href="homePage.html"><img src="images/svg/logoIcon.png" class="logoIcon"></a>
+                    <a href="../user/homePage.php"><img src="../imagesuser/svg/logoIcon.png" class="logoIcon"></a>
                     <h1 class="brandName">BeautyandtheBest</h1>
                 </div>
                 <ul class="navList">
-                    <li><a href="homePage.html">Home</a></li>
-                    <li><a href="productList.html">Products</a></li>
-                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="../user/homePage.php">Home</a></li>
+                    <li><a href="../user/productList.php">Products</a></li>
+                    <li><a href="../user/brands.php">Brands</a></li>
                 </ul>
                 <div class="icons">
                     <div class="search-container">
                         <input type="text" placeholder="Search..">
-                        <img src="images/svg/searchIcon.png" class="searchIcon">
+                        <img src="../imagesuser/svg/searchIcon.png" class="searchIcon">
                     </div>
-                    <a href=""><img src="images/svg/userIcon.png" class="profileIcon"></a>
-                    <a href="cart.html"><img src="images/svg/cartIcon.png" class="cartIcon"></a>
-                    <a href="wishlist.html"><img src="images/svg/wishlistBanner.png" class="wishlistIcon"></a>
+                    <a href=""><img src="../imagesuser/svg/userIcon.png" class="profileIcon"></a>
+                    <a href="../user/cart.php"><img src="../imagesuser/svg/cartIcon.png" class="cartIcon"></a>
+                    <a href="../user/wishlist.php"><img src="../imagesuser/svg/wishlistBanner.png" class="wishlistIcon"></a>
                 </div>
             </nav>
         </div>
@@ -36,7 +36,7 @@
 
     <div class="container">
         <div class="cart-header">
-            <button onclick="window.history.back()"><img src="images/svg/backIcon.png" alt=""></button>
+            <button onclick="window.history.back()"><img src="../imagesuser/svg/backIcon.png" alt=""></button>
             <h1>Cart</h1>
         </div>
         <div id="cartContainer"></div>
@@ -85,6 +85,7 @@
         </div>
     </div>
 
-<script src="scripts/cart.js"></script>
+<script src="../userjs/cart.js"></script>
 </body>
 </html>
+

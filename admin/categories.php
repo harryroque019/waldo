@@ -11,7 +11,7 @@
         <div class="container">
             <nav>
                 <div class="logoBrand">
-                    <a href="homePage.html"><img src="../imageadmin/logoIcon (1).png" class="logoIcon"></a>
+                    <a href="/admin/homePage.php"><img src="../imageadmin/logoIcon (1).png" class="logoIcon"></a>
                     <h1 class="brandName">BeautyandtheBest</h1>
                 </div>
                 <a href=""><img src="../imageadmin/registerUser.png" class="profileIcon"></a>

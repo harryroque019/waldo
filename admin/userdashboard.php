@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/usedashboard.css">
+    <link rel="stylesheet" href="../admincss/usedashboard.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>User Dashboard</title>
@@ -13,13 +13,13 @@
     <div class="menu">
         <div class="con-btn">
             <div class="btn">
-                <button type="submit"><a href="userdashboard.html"><b>Profile<br>Information</b></a></button>
+                <button type="submit"><a href="../admin/userdashboard.php"><b>Profile<br>Information</b></a></button>
             </div>
             <div class="btn">
-                <button type="submit"><a href="skinprofile.html"><b>Skin Profile</b></a></button>
+                <button type="submit"><a href="../admin/skinprofile.php"><b>Skin Profile</b></a></button>
             </div>
             <div class="btn">
-                <button type="submit"><a href="accountsettings.html"><b>Account<br>Settings</b></a></button>
+                <button type="submit"><a href="../admin/accountsettings.php"><b>Account<br>Settings</b></a></button>
             </div>
             <div class="btn">
                 <button type="submit"><b>Orders</b></button>

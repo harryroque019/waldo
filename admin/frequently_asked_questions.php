@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/frequently_asked_questions.css">
+    <link rel="stylesheet" href="/admincss/frequently_asked_questions.css">
     <title>Frequently Asked Questions</title>
 </head>
 <body>   
@@ -11,22 +11,22 @@
         <div class="container">
             <nav>
                 <div class="logoBrand">
-                    <a href="homePage.html"><img src="image/logoIcon (1).png" class="logoIcon"></a>
+                    <a href="/admin/homePage.php"><img src="/imageadmin/logoIcon (1).png" class="logoIcon"></a>
                     <h1 class="brandName">BeautyandtheBest</h1>
                 </div>
                 <ul class="navList">
-                    <li><a href="homePage.html">Home</a></li>
-                    <li><a href="productList.html">Products</a></li>
-                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="/admin/homePage.php">Home</a></li>
+                    <li><a href="/admin/productList.php">Products</a></li>
+                    <li><a href="/admin/brands.php">Brands</a></li>
                 </ul>
                 <div class="icons">
                     <div class="search-container">
                         <input type="text" placeholder="Search..">
-                        <img src="image/searchIcon (1).png" class="searchIcon">
+                        <img src="/imageadmin/searchIcon (1).png" class="searchIcon">
                     </div>
-                    <a href=""><img src="image/userIcon (1).png" class="profileIcon"></a>
-                    <a href="cart.html"><img src="image/cartIcon (1).png" class="cartIcon"></a>
-                    <a href="wishlist.html"><img src="image/wishlistBanner.png" class="wishlistIcon"></a>
+                    <a href=""><img src="/imageadmin/userIcon (1).png" class="profileIcon"></a>
+                    <a href="/admin/cart.php"><img src="/imageadmin/cartIcon (1).png" class="cartIcon"></a>
+                    <a href="/admin/wishlist.php"><img src="/imageadmin/wishlistBanner.png" class="wishlistIcon"></a>
                 </div>
             </nav>
         </div>
@@ -35,13 +35,13 @@
     <div class="menu">
         <div class="con-btn">
             <div class="btn">
-                <button type="submit"><a href="userdashboard.html"><b>Profile<br>Information</b></a></button>
+                <button type="submit"><a href="/admin/userdashboard.php"><b>Profile<br>Information</b></a></button>
             </div>
             <div class="btn">
-                <button type="submit"><a href="skinprofile.html"><b>Skin Profile</b></a></button>
+                <button type="submit"><a href="/admin/skinprofile.php"><b>Skin Profile</b></a></button>
             </div>
             <div class="btn">
-                <button type="submit"><a href="accountsettings.html"><b>Account<br>Settings</b></a></button>
+                <button type="submit"><a href="/admin/accountsettings.php"><b>Account<br>Settings</b></a></button>
             </div>
             <div class="btn">
                 <button type="submit"><b>Orders</b></button>
@@ -80,7 +80,7 @@
         </div>
     </div>   
 
-    <script src="/js/frequently_asked_questions.js"></script>
+    <script src="/adminjs/frequently_asked_questions.js"></script>
 
 </body>
 </html>

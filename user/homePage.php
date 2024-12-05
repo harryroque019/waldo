@@ -26,16 +26,16 @@ $collection = $client->BTBA->user;
                 <ul class="navList">
                     <li><a href="../user/homePage.php">Home</a></li>
                     <li><a href="../user/productList.php">Products</a></li>
-                    <li><a href="../user/brands.html">Brands</a></li>
+                    <li><a href="../user/brands.php">Brands</a></li>
                 </ul>
                 <div class="icons">
                     <div class="search-container">
                         <input type="text" placeholder="Search..">
                         <img src="../imagesuser/svg/searchIcon.png" class="searchIcon">
                     </div>
-                    <a href="login.html"><img src="../imagesuser/svg/userIcon.png" class="profileIcon"></a>
-                    <a href="cart.html"><img src="../imagesuser/svg/cartIcon.png" class="cartIcon"></a>
-                    <a href="wishlist.html"><img src="../imagesuser/svg/wishlistBanner.png" class="wishlistIcon"></a>
+                    <a href="/user/login.php"><img src="../imagesuser/svg/userIcon.png" class="profileIcon"></a>
+                    <a href="/user/cart.php"><img src="../imagesuser/svg/cartIcon.png" class="cartIcon"></a>
+                    <a href="/user/wishlist.php"><img src="../imagesuser/svg/wishlistBanner.png" class="wishlistIcon"></a>
                 </div>
             </nav>
         </div>
@@ -45,7 +45,7 @@ $collection = $client->BTBA->user;
         <div class="container">
             <h1 class="title">Come shop now where <br>Beauty wins with every<br> Checkout!</h1>
             <p class="subtitle">Revive & Thrive your skin with the help of BeautyandtheBest.</p>
-            <a href="productList.html">
+            <a href="/user/productList.php">
                 <button class="btn-primary"> 
                     DISCOVER MORE
                     <span class="btn-primary-background">
@@ -87,7 +87,7 @@ $collection = $client->BTBA->user;
                     </div>
                     <div class="btnContent">
                         <button class="btnBackground">
-                            <a href="productList.html"><img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon2"></a>
+                            <a href="/user/productList.php"><img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon2"></a>
                         </button>
                     </div>
                 </div>
@@ -161,7 +161,7 @@ $collection = $client->BTBA->user;
             <div class="content">
                 <h1 class="title">A right solution for the right product</h1>
                 <p class="subtitle">Don’t have an idea or enough knowledge about the product you have your eye on? Don’t worry, we’ve got your back, our dear BaTB customers! Our team is here to provide you with all the information and support you need to make an informed decision. </p>
-                <a href="moreInformation.html"><button class="btn-primary">
+                <a href="/user/moreInformation.php"><button class="btn-primary">
                     FOR MORE INFO
                     <span class="btn-primary-background">
                         <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
@@ -179,7 +179,7 @@ $collection = $client->BTBA->user;
                     <p class="subtitle">At BeautyandtheBest, we prioritize your skincare journey by providing clear and detailed information about our products and their ingredients. We focus on educating our customers about active ingredients like niacinamide and salicylic acid, ensuring you understand their benefits and safe usage.<br><br>
                     Our mission is to simplify your shopping experience, eliminate ingredient confusion, and build trust in our products. Offering comprehensive product details and demonstrations, we aim to enhance your satisfaction and encourage repeat purchases. Join us in discovering skincare that empowers you to look and feel your best.</p>
                     <div class="buttonContent">
-                        <a href="aboutUs-1.html"><button class="btn-secondary">ABOUT US</button></a>
+                        <a href="/user/aboutUs-1.php"><button class="btn-secondary">ABOUT US</button></a>
                     </div>
                 </div>
                 <img src="../imagesuser/banner/aboutUs1.png" class="aboutUsTrial">

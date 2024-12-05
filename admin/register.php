@@ -9,6 +9,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
     $password = $_POST['pass'];
     $pnum = $_POST['pnum'];
 
+    $isAdmin = $_POST['isAdmin'] ?? false;
+
   
     $existuser = $collection->findOne(['email' => $email]);
     if($existuser) {
@@ -24,10 +26,11 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
         'username' => $uid,
         'email' => $email,
         'phonenumber'=> $pnum,
-        'password' => $hashedpass
+        'password' => $hashedpass,
+        'isAdmin' => $isAdmin
   
       ]);
-      echo "<script>alert('Registered successfully'); window.location.href = '../html/login.php';</script>";
+      echo "<script>alert('Registered successfully'); window.location.href = '../admin/login.php';</script>";
       exit;
     }
    }
@@ -38,20 +41,20 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="/admincss/register.css">
     <title>Sign-up</title>
 </head>
 <body>
 
     <!-- header -->
     <div class="nav">
-        <img src="../image/logo.png" alt="Logo" class="logo" style="margin-left: 190px; " height=70px>
+        <img src="../imageadmin/logo.png" alt="Logo" class="logo" style="margin-left: 190px; " height=70px>
         <p id="Beauty">BeautyandtheBest</p>
         <ul>
             <li><a href="Home"><b>Home</b></a></li>
             <li><a href="Home"><b>Shop</b></a></li>
             <li><a href="Home"><b>About Us</b></a></li>
-            <a href=""><img src="../image/image 47.png" alt="" style="width: 37px;" height="30px"></a>
+            <a href=""><img src="../imageadmin/image 47.png" alt="" style="width: 37px;" height="30px"></a>
         </ul>
     </div>
     <!-- end -->
@@ -62,10 +65,10 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
             <!--============for image slidess============= -->
             <div class="images">
                 <section id="image1">
-                    <img src="../image/k.png" alt="Image 1" style="width: 420px; height: 470px;">
+                    <img src="../imageadmin/k.png" alt="Image 1" style="width: 420px; height: 470px;">
                 </section>
                 <section id="image2">
-                    <img src="../image/hey.png" alt="Image 2" style="width: 420px; height: 470px;">
+                    <img src="../imageadmin/hey.png" alt="Image 2" style="width: 420px; height: 470px;">
                 </section>
         
                 <!-- Buttons at the bottom of the images -->
@@ -110,16 +113,17 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
                         <div class="text-with-lines">Or register with</div>
                         <div>
                             <button type="submit" class="google-btn">
-                                <img src="../image/googleIcon 1 (1).png" alt="Google Icon" class="google-icon">
+                                <img src="../imageadmin/googleIcon 1 (1).png" alt="Google Icon" class="google-icon">
                                 Continue With Google
                             </button>
                         </div>
                                  
                     </div>
+                    <input type="hidden" name="isAdmin" value="1">
                  </form>
         </div> 
     </div>
-<script src="../js/register.js"></script>
+<script src="../adminjs/register.js"></script>
     
    
 </body>

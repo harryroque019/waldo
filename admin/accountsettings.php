@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="/css/accountsettings.css">
+     <link rel="stylesheet" href="/admincss/accountsettings.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,13 +11,13 @@
      <div class="menu">
         <div class="con-btn">
             <div class="btn">
-                <button type="submit"><a href="userdashboard.html"><b>Profile<br>Information</b></a></button>
+                <button type="submit"><a href="/admin/userdashboard.php"><b>Profile<br>Information</b></a></button>
             </div>
             <div class="btn">
-                <button type="submit"><a href="skinprofile.html"><b>Skin Profile</b></a></button>
+                <button type="submit"><a href="/admin/skinprofile.php"><b>Skin Profile</b></a></button>
             </div>
             <div class="btn">
-                <button type="submit"><a href="accountsettings.html"><b>Account<br>Settings</b></a></button>
+                <button type="submit"><a href="/admin/accountsettings.php"><b>Account<br>Settings</b></a></button>
             </div>
             <div class="btn">
                 <button type="submit"><b>Orders</b></button>

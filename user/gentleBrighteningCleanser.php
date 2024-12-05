@@ -13,22 +13,22 @@
         <div class="container">
             <nav>
                 <div class="logoBrand">
-                    <a href="homePage.html"><img src="images/svg/logoIcon.png" class="logoIcon"></a>
+                    <a href="/user/homePage.php"><img src="/imagesuser/svg/logoIcon.png" class="logoIcon"></a>
                     <h1 class="brandName">BeautyandtheBest</h1>
                 </div>
                 <ul class="navList">
-                    <li><a href="homePage.html">Home</a></li>
-                    <li><a href="productList.html">Products</a></li>
-                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="/user/homePage.php">Home</a></li>
+                    <li><a href="/user/productList.php">Products</a></li>
+                    <li><a href="/user/brands.php">Brands</a></li>
                 </ul>
                 <div class="icons">
                     <div class="search-container">
                         <input type="text" placeholder="Search..">
-                        <img src="images/svg/searchIcon.png" class="searchIcon">
+                        <img src="/imagesuser/svg/searchIcon.png" class="searchIcon">
                     </div>
-                    <a href=""><img src="images/svg/userIcon.png" class="profileIcon"></a>
-                    <a href="cart.html"><img src="images/svg/cartIcon.png" class="cartIcon"></a>
-                    <a href="wishlist.html"><img src="images/svg/wishlistBanner.png" class="wishlistIcon"></a>
+                    <a href=""><img src="/imagesuser/svg/userIcon.png" class="profileIcon"></a>
+                    <a href="/user/cart.php"><img src="/imagesuser/svg/cartIcon.png" class="cartIcon"></a>
+                    <a href="/user/wishlist.php"><img src="/imagesuser/svg/wishlistBanner.png" class="wishlistIcon"></a>
                 </div>
             </nav>
         </div>
@@ -36,7 +36,7 @@
 
     <section id="radiance-boost-serum">
         <div class="back-button">
-            <button onclick="window.history.back()"><img src="images/svg/backIcon.png" alt=""></button>
+            <button onclick="window.history.back()"><img src="/imagesuser/svg/backIcon.png" alt=""></button>
             <h1>Gentle Brightening Cleanser</h1>
         </div>
         <div class="container">
@@ -45,14 +45,14 @@
                     <h1 class="title">Gentle Brightening Cleanser</h1>
                     <div class="rating-price-content">
                         <div class="ratings">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                         <div class="price-wishlist">
                             <h1 class="price">₱ 199</h1>
-                            <img src="images/svg/wishlistIcon.png" alt="">
+                            <img src="/imagesuser/svg/wishlistIcon.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
         
             <div class="item-selection">
                 <div class="image-container">
-                    <img id="productImage" src="images/product-items/facial-wash/facial-cleanser-1.png">
+                    <img id="productImage" src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                 </div>
                 <div class="quantity-container-btn">
                     <div class="decreasing-btn">-</div>
@@ -161,7 +161,7 @@
                 <div class="recommended-items">
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="images/product-items/facial-wash/facial-cleanser-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Radiance Boost Serum</p>
@@ -171,17 +171,17 @@
                         </div>
                         
                         <div class="recommended-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                         
                         <div class="item-btn">
                             <button class="view-more-btn"> 
                                 See More
                                 <span class="btn-background">
-                                    <img src="images/svg/arrowIcon.png" class="arrowIcon">
+                                    <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                 </span>
                             </button>
                         </div>
@@ -189,7 +189,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="images/product-items/facial-wash/facial-cleanser-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -199,17 +199,17 @@
                         </div>
                         
                         <div class="recommended-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                         
                         <div class="item-btn">
                             <button class="view-more-btn"> 
                                 See More
                                 <span class="btn-background">
-                                    <img src="images/svg/arrowIcon.png" class="arrowIcon">
+                                    <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                 </span>
                             </button>
                         </div>
@@ -217,7 +217,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="images/product-items/facial-wash/facial-cleanser-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -227,17 +227,17 @@
                         </div>
                         
                         <div class="recommended-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                         
                         <div class="item-btn">
                             <button class="view-more-btn"> 
                                 See More
                                 <span class="btn-background">
-                                    <img src="images/svg/arrowIcon.png" class="arrowIcon">
+                                    <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                 </span>
                             </button>
                         </div>
@@ -245,7 +245,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="images/product-items/facial-wash/facial-cleanser-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -255,17 +255,17 @@
                         </div>
                         
                         <div class="recommended-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                         
                         <div class="item-btn">
                             <button class="view-more-btn"> 
                                 See More
                                 <span class="btn-background">
-                                    <img src="images/svg/arrowIcon.png" class="arrowIcon">
+                                    <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                 </span>
                             </button>
                         </div>
@@ -273,7 +273,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="images/product-items/facial-wash/facial-cleanser-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -283,17 +283,17 @@
                         </div>
                         
                         <div class="recommended-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                         
                         <div class="item-btn">
                             <button class="view-more-btn"> 
                                 See More
                                 <span class="btn-background">
-                                    <img src="images/svg/arrowIcon.png" class="arrowIcon">
+                                    <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                 </span>
                             </button>
                         </div>
@@ -301,7 +301,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="images/product-items/facial-wash/facial-cleanser-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -311,17 +311,17 @@
                         </div>
                         
                         <div class="recommended-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                         
                         <div class="item-btn">
                             <button class="view-more-btn"> 
                                 See More
                                 <span class="btn-background">
-                                    <img src="images/svg/arrowIcon.png" class="arrowIcon">
+                                    <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                 </span>
                             </button>
                         </div>
@@ -329,7 +329,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="images/product-items/facial-wash/facial-cleanser-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -339,17 +339,17 @@
                         </div>
                         
                         <div class="recommended-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                         
                         <div class="item-btn">
                             <button class="view-more-btn"> 
                                 See More
                                 <span class="btn-background">
-                                    <img src="images/svg/arrowIcon.png" class="arrowIcon">
+                                    <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                 </span>
                             </button>
                         </div>
@@ -357,7 +357,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="images/product-items/facial-wash/facial-cleanser-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -367,17 +367,17 @@
                         </div>
                         
                         <div class="recommended-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                         
                         <div class="item-btn">
                             <button class="view-more-btn"> 
                                 See More
                                 <span class="btn-background">
-                                    <img src="images/svg/arrowIcon.png" class="arrowIcon">
+                                    <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                 </span>
                             </button>
                         </div>
@@ -385,7 +385,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="images/product-items/facial-wash/facial-cleanser-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -395,17 +395,17 @@
                         </div>
                         
                         <div class="recommended-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                         
                         <div class="item-btn">
                             <button class="view-more-btn"> 
                                 See More
                                 <span class="btn-background">
-                                    <img src="images/svg/arrowIcon.png" class="arrowIcon">
+                                    <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                 </span>
                             </button>
                         </div>
@@ -428,16 +428,16 @@
                 <div class="users-review">
                     <div class="user-info-container">
                         <div class="user-info-content">
-                            <img src="images/svg/profileIcon.png" alt="">
+                            <img src="/imagesuser/svg/profileIcon.png" alt="">
                             <h3>Username</h3>
                         </div>
                     </div>
                     <div class="review-content">
                         <div class="review-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                     </div>
                     <div class="posted-review">
@@ -448,16 +448,16 @@
                 <div class="users-review">
                     <div class="user-info-container">
                         <div class="user-info-content">
-                            <img src="images/svg/profileIcon.png" alt="">
+                            <img src="/imagesuser/svg/profileIcon.png" alt="">
                             <h3>Username</h3>
                         </div>
                     </div>
                     <div class="review-content">
                         <div class="review-rate">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon1.png">
-                            <img src="images/svg/starIcon2.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon1.png">
+                            <img src="/imagesuser/svg/starIcon2.png">
                         </div>
                     </div>
                     <div class="posted-review">
@@ -469,6 +469,6 @@
         </div>
     </section>
 
-    <script src="scripts/gentleBrighteningCleanser.js"></script>
+    <script src="/userjs/gentleBrighteningCleanser.js"></script>
 </body>
 </html>

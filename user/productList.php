@@ -13,22 +13,22 @@
         <div class="container">
             <nav>
                 <div class="logoBrand">
-                    <a href="homePage.html"><img src="/imagesuser/svg/logoIcon.png" class="logoIcon"></a>
+                    <a href="../user/homePage.php"><img src="../imagesuser/svg/logoIcon.png" class="logoIcon"></a>
                     <h1 class="brandName">BeautyandtheBest</h1>
                 </div>
                 <ul class="navList">
-                    <li><a href="homePage.html">Home</a></li>
-                    <li><a href="productList.html">Products</a></li>
-                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="../user/homePage.php">Home</a></li>
+                    <li><a href="../user/productList.php">Products</a></li>
+                    <li><a href="../user/brands.php">Brands</a></li>
                 </ul>
                 <div class="icons">
                     <div class="search-container">
                         <input type="text" placeholder="Search..">
-                        <img src="/imagesuser/svg/searchIcon.png" class="searchIcon">
+                        <img src="../imagesuser/svg/searchIcon.png" class="searchIcon">
                     </div>
-                    <a href=""><img src="/imagesuser/svg/userIcon.png" class="profileIcon"></a>
-                    <a href="cart.html"><img src="/imagesuser/svg/cartIcon.png" class="cartIcon"></a>
-                    <a href="wishlist.html"><img src="/imagesuser/svg/wishlistBanner.png" class="wishlistIcon"></a>
+                    <a href=""><img src="../imagesuser/svg/userIcon.png" class="profileIcon"></a>
+                    <a href="../user/cart.php"><img src="../imagesuser/svg/cartIcon.png" class="cartIcon"></a>
+                    <a href="../user/wishlist.php"><img src="../imagesuser/svg/wishlistBanner.png" class="wishlistIcon"></a>
                 </div>
             </nav>
         </div>
@@ -82,7 +82,7 @@
 
                             <div class="item facial-wash">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
+                                    <img src="../imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Gentle Brightening Cleanser</p>
@@ -92,18 +92,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="gentleBrighteningCleanser.html">
+                                    <a href="../user/gentleBrighteningCleanser.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -112,7 +112,7 @@
     
                             <div class="item facial-wash">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/facial-wash/facial-cleanser-2.png">
+                                    <img src="../imagesuser/product-items/facial-wash/facial-cleanser-2.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Gentle Cleansing Oil</p>
@@ -121,17 +121,17 @@
                                     <p class="item-1-price">₱ 199</p>
                                 </div>
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 <div class="item-btn">
-                                    <a href="gentleCleansingOil.html">
+                                    <a href="../user/gentleCleansingOil.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -140,7 +140,7 @@
 
                             <div class="item facial-wash">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/facial-wash/facial-cleanser-3.png">
+                                    <img src="../imagesuser/product-items/facial-wash/facial-cleanser-3.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Calm + Soothe Oat Cleanser</p>
@@ -150,18 +150,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="sootheOatCleanser.html">
+                                    <a href="../user/sootheOatCleanser.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -170,7 +170,7 @@
 
                             <div class="item facial-wash">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/facial-wash/facial-cleanser-4.png">
+                                    <img src="../imagesuser/product-items/facial-wash/facial-cleanser-4.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Gentle Salicylic Acid Cleanser</p>
@@ -180,18 +180,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="salicylicAcidCleanser.html">
+                                    <a href="../user/salicylicAcidCleanser.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -202,7 +202,7 @@
 
                             <div class="item moisturizer">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/moisturizers/moisturizer-1.png">
+                                    <img src="../imagesuser/product-items/moisturizers/moisturizer-1.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Centella Cica Cream</p>
@@ -212,18 +212,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -232,7 +232,7 @@
 
                             <div class="item moisturizer">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/moisturizers/moisturizer-2.png">
+                                    <img src="../imagesuser/product-items/moisturizers/moisturizer-2.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Hydra Water Gel Cream</p>
@@ -242,18 +242,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -262,7 +262,7 @@
     
                             <div class="item moisturizer">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/moisturizers/moisturizer-3.png">
+                                    <img src="../imagesuser/product-items/moisturizers/moisturizer-3.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Radiance Boost Cream</p>
@@ -272,18 +272,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -294,8 +294,8 @@
 
                             <div class="item serum">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/moisturizers/serum-1.png">
-                                </div>
+                                    <img src="../imagesuser/product-items/moisturizers/serum-1.png">
+                                </div>  
                                 <div class="product-item-name">
                                     <p class="item-1">Hyaluronic Acid Serum</p>
                                 </div>
@@ -304,18 +304,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -324,7 +324,7 @@
 
                             <div class="item serum">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/moisturizers/serum-2.png">
+                                    <img src="../imagesuser/product-items/moisturizers/serum-2.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Perfection Retinol Complex</p>
@@ -334,18 +334,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
-                                
+
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -354,7 +354,7 @@
 
                             <div class="item serum">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/moisturizers/serum-3.png">
+                                    <img src="../imagesuser/product-items/moisturizers/serum-3.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Revive Gel Serum</p>
@@ -364,18 +364,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -384,7 +384,7 @@
 
                             <div class="item serum">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/moisturizers/serum-4.png">
+                                    <img src="../imagesuser/product-items/moisturizers/serum-4.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Radiance Boost Serum</p>
@@ -394,17 +394,17 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>                           
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -413,7 +413,7 @@
                             
                             <div class="item serum">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/moisturizers/serum-5.png">
+                                    <img src="../imagesuser/product-items/moisturizers/serum-5.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Alpha Arbutin Plus Serum</p>
@@ -422,18 +422,18 @@
                                     <p class="item-1-price">₱ 199</p>
                                 </div> 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -442,7 +442,7 @@
 
                             <div class="item serum">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/moisturizers/serum-6.png">
+                                    <img src="../imagesuser/product-items/moisturizers/serum-6.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Vitamin C Serum</p>
@@ -452,18 +452,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -472,11 +472,9 @@
 
                             <!-- Other Category -->
 
-/*************  ✨ Codeium Command 🌟  *************/
                             <div class="item others">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/others/others-1.png">
-                                    <img src="/imagesuser/product-items/others/others-1.png">
+                                    <img src="../imagesuser/product-items/others/others-1.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Product Name</p>
@@ -486,23 +484,18 @@
                                 </div>
                                 
                                 <div class="stars">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon1.png" class="starIcon1">
+                                    <img src="../imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
-                                        <button class="view-more-btn"> 
+                                    <a href="../user/radianceBoostSerum.php">
+                                        <button class="view-more-btn">  
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                <img src="../imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
                                     </a>
@@ -512,7 +505,6 @@
                             <div class="item others">
                                 <div class="product-image">
                                     <img src="/imagesuser/product-items/others/others-2.png">
-                                    <img src="/imagesuser/product-items/others/others-2.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Product Name</p>
@@ -526,18 +518,13 @@
                                     <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
                                     <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
                                     <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                                 <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
                                             </span>
                                         </button>
@@ -548,7 +535,6 @@
                             <div class="item others">
                                 <div class="product-image">
                                     <img src="/imagesuser/product-items/others/others-3.png">
-                                    <img src="/imagesuser/product-items/others/others-3.png">
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Product Name</p>
@@ -562,19 +548,15 @@
                                     <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
                                     <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
                                     <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
-                                    <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
                                                 <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
-                                                <img src="/imagesuser/svg/arrowIcon.png" class="arrowIcon">
+                                                
                                             </span>
                                         </button>
                                     </a>
@@ -599,8 +581,8 @@
 
                             <div class="item facial-wash">
                                 <div class="product-image">
-                                    <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
-                                    <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
+                                    <img src="../imagesuser/product-items/facial-wash/facial-cleanser-1.png">
+                                   
                                 </div>
                                 <div class="product-item-name">
                                     <p class="item-1">Gentle Brightening Cleanser</p>
@@ -619,10 +601,10 @@
                                     <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
                                     <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
-/******  ba0ef38b-b899-46bb-9021-4fde8414ea17  *******/
+
                                 
                                 <div class="item-btn">
-                                    <a href="gentleBrighteningCleanser.html">
+                                    <a href="../user/gentleBrighteningCleanser.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -650,7 +632,7 @@
                                     <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>
                                 <div class="item-btn">
-                                    <a href="gentleCleansingOil.html">
+                                    <a href="../user/gentleCleansingOil.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -680,7 +662,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -710,7 +692,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -742,7 +724,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -772,7 +754,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -802,7 +784,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -834,7 +816,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -861,10 +843,10 @@
                                     <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
                                     <img src="/imagesuser/svg/starIcon1.png" class="starIcon1">
                                     <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
-                                </div>/imagesuser/imagesuser
+                                </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -894,7 +876,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -923,7 +905,7 @@
                                     <img src="/imagesuser/svg/starIcon2.png" class="starIcon1">
                                 </div>                           
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -952,7 +934,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -982,7 +964,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -1014,7 +996,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -1044,7 +1026,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -1074,7 +1056,7 @@
                                 </div>
                                 
                                 <div class="item-btn">
-                                    <a href="radianceBoostSerum.html">
+                                    <a href="../user/radianceBoostSerum.php">
                                         <button class="view-more-btn"> 
                                             View More
                                             <span class="btn-background">
@@ -1133,7 +1115,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="/imagesuser/product-items/product-sample-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -1161,7 +1143,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="/imagesuser/product-items/product-sample-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -1189,7 +1171,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="/imagesuser/product-items/product-sample-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -1217,7 +1199,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="/imagesuser/product-items/product-sample-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -1245,7 +1227,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="/imagesuser/product-items/product-sample-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -1273,7 +1255,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="/imagesuser/product-items/product-sample-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -1301,7 +1283,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="/imagesuser/product-items/product-sample-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -1329,7 +1311,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="/imagesuser/product-items/product-sample-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -1357,7 +1339,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="/imagesuser/product-items/product-sample-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -1386,7 +1368,7 @@
 
                     <div class="recommended-item-1">
                         <div class="recommended-product-image">
-                            <img src="/imagesuser/product-items/product-sample-1.png">
+                            <img src="/imagesuser/product-items/facial-wash/facial-cleanser-1.png">
                         </div>
                         <div class="recommended-product-item-name">
                             <p class="recommended-item-name">Product Name</p>
@@ -1449,6 +1431,6 @@
         </div>
     </section>
 
-<script src="scripts/productList.js"></script>
+<script src="/userjs/productList.js"></script>
 </body>
 </html>
