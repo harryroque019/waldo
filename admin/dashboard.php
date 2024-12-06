@@ -56,7 +56,7 @@ $users = $collectionuser->find();
             </button>
          </a>
         </div>
-        <a href="products.php">
+        <a  href="products.php" style="text-decoration: none;">
         <div class="btn nav-btn">
             <button type="submit">
                 <img src="../imageadmin/productsIcon.png" class="image" style="width: 30px; height: 30px;">

@@ -1,10 +1,10 @@
-
 <?php
 session_start();
 require '../connection/connection.php';
 
 $client = new MongoDB\Client;
 $collectionproducts = $client->BTBA->products;
+$colected = $collectionproducts->find()->toArray();
 
 if (!isset($_SESSION['email'])) {
     header("Location: ../admin/login.php");
@@ -193,36 +193,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
         <div class="user-data">
             <div class="table">
-             <table>
-                 <tr>
-                   <th>
-                        <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Category
-                        </button>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </div>
-                   </th>
-                   <th>Product</th>
-                   <th>Stocks</th>
-                   <th>Sold</th>
-                   <th>Price</th>
-                 </tr>
-                 <?php foreach ($collectionproducts as $product) { ?>
-    
-                    <tr>
-                    <td><?php echo $product['productCategory']; ?></td>
-                    <td><?php echo $product['productName']; ?></td>
-                    <td><?php echo $product['stock']; ?></td>
-                    <td></td>
-                    <td><?php echo $product['productPrice']; ?></td>
-                    </tr>
-                <?php } ?>
-               </table>
+                 <?php include 'BATBelements/product.php'; ?>
              </div> 
  
          </div>
@@ -234,7 +205,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <script src="../adminjs/products.js"> </script>
 <!--matic mag a-appear yung chosen image-->
     <script src="../adminjs/chosenappear.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN6jIeHz" crossorigin="anonymous"></script>
     
 </body>
 </html>
+
